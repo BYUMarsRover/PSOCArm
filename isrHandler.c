@@ -188,12 +188,12 @@ void heartbeatEventHandler() {
 		POLOLUCONTROL_SHOULDER);
     
     // Elbow
-    //pololuControl_readVariable(POLOLUCONTROL_READ_FEEDBACK_COMMAND,
-	//	POLOLUCONTROL_ELBOW);
+    pololuControl_readVariable(POLOLUCONTROL_READ_FEEDBACK_COMMAND,
+		POLOLUCONTROL_ELBOW);
     
     // Forearm
-    //pololuControl_readVariable(POLOLUCONTROL_READ_FEEDBACK_COMMAND,
-	//	POLOLUCONTROL_FOREARM);
+    pololuControl_readVariable(POLOLUCONTROL_READ_FEEDBACK_COMMAND,
+		POLOLUCONTROL_FOREARM);
 	
     // Wrist tilt
     // TODO: call dynamixelReadPosition() for wrist tilt
