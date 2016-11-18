@@ -26,10 +26,6 @@
 
 //Measurement of voltage on the FB pin
 //Ranges from 0 to 4092 (5 volts)
-//This value was changed to A7 from A5.  A5 represents the command for reading raw feedback
-//while A7 represents the command for reading scaled feedback.  This probably is the reason
-//that the 2015-2016 team was unable to read accurate feedback data from the Pololus
-//Taylor Welker 2016-2017 team
 #define POLOLUCONTROL_READ_FEEDBACK_COMMAND 0xA7
 
 //This is the duty cycle the pololu is trying to achieve
