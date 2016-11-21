@@ -130,7 +130,7 @@ CY_ISR(ForearmRxISR) {
 
 //CY_ISR_PROTO(WristTiltRxISR);
 
-//CY_ISR_PROTO_WristSpinRxISR);
+//CY_ISR_PROTO(WristSpinRxISR);
 
 //CY_ISR_PROTO(HeartbeatISR);
 CY_ISR(HeartbeatISR) {
